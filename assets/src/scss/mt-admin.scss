@@ -1,0 +1,269 @@
+/*
+* Admin CSS
+* File Description: The main stylesheet of this plugins for main design part.
+*/
+
+.mediatracker-usage-table {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            text-transform: capitalize;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        a {
+            color: #0073aa;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+// Unused Media List CSS
+.unused-media-list {
+    .wp-list-table {
+        td strong,
+        td strong {
+            display: block;
+            margin-bottom: .2em;
+            font-size: 14px;
+        }
+
+        .media-icon {
+            float: left;
+            min-height: 60px;
+            margin: 0 9px 0 0;
+
+            img {
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        &.fixed {
+            table-layout: inherit;
+        }
+    }
+}
+
+// Feedback Modal Styles
+#mt-feedback-modal {
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    // Modal Content
+    .mt-feedback-modal-content {
+        background: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        width: 80%;
+        max-width: 600px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        position: relative;
+        text-align: center;
+        margin: 10% auto;
+
+        // Header
+        header.mt-feedback-modal-header {
+            text-align: left;
+            h3 {
+                margin-top: 0;
+                font-size: 1.5em;
+                color: #333;
+                line-height: normal;
+            }
+
+            // Close Button
+            .close {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                font-size: 1.5em;
+                cursor: pointer;
+            }
+        }
+
+        // Body
+        .mt-feedback-modal-body {
+            textarea {
+                width: 100%;
+                height: 120px;
+                margin: 20px 0;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                font-size: 1em;
+                resize: vertical;
+            }
+        }
+
+        // Footer
+        footer.mt-feedback-modal-footer {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            button {
+                background-color: #007cba;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                padding: 10px 20px;
+                font-size: 1em;
+                cursor: pointer;
+                margin: 5px;
+                transition: background-color 0.3s, transform 0.3s;
+
+                &:hover {
+                    background-color: #005a87;
+                    transform: scale(1.05);
+                }
+
+                &:focus {
+                    outline: none;
+                }
+
+                // Skip button specific styles
+                &#mt-skip-feedback {
+                    background: transparent;
+                    color: #2271b1;
+                    border: 1px solid #2271b1;
+                }
+            }
+        }
+    }
+}
+
+.broken-link-checker {
+    .post_title {
+        padding-left: 15px !important;
+    }
+
+    #post_type {
+        padding: 0;
+    }
+}
+
+.wrap.unused-media-list,
+.wrap.broken-link-checker {
+    .wp-heading-inline {
+        width: calc(100% - 40px);
+        background: #28a745;
+        color: #fff;
+        display: inline-flex;
+        align-items: center;
+        padding: 20px 20px;
+        gap: 20px;
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+
+        svg {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .wp-filter {
+        margin: 10px 0 10px;
+    }
+
+    .notice {
+        h2 {
+            margin-bottom: 0;
+        }
+    }
+
+    /* Simple styling for the admin table */
+    table.widefat {
+        table-layout: inherit;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    table.widefat th,
+    table.widefat td {
+        padding: 10px;
+        text-align: left;
+
+        &.status {
+            font-weight: 700;
+            color: red;
+        }
+    }
+}
+
+.media-toolbar-wrap.wp-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 0 15px;
+}
+
+.unused-image-found h2 {
+    font-size: 24px;
+    font-weight: 300;
+
+    span {
+        font-size: 28px;
+        font-weight: bold;
+        color: #cf0000;
+    }
+}
+
+.replace-broken-link {
+    input {
+        width: 100%;
+    }
+}
+
+#clear-broken-links-transient {
+    position: absolute;
+    padding: 8px 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#success-message {
+    display: none;
+    color: green;
+    margin-top: 15px;
+    position: absolute;
+    left: 230px;
+    font-size: 16px;
+}

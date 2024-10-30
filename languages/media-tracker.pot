@@ -1,0 +1,110 @@
+# Copyright (C) 2024 TheBitCraft
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Media Tracker 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/media-tracker\n"
+"Last-Translator: TheBitCraft <hello@thebitcraft.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-11T11:35:40+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: media-tracker\n"
+
+#. Plugin Name of the plugin
+#: media-tracker.php
+msgid "Media Tracker"
+msgstr ""
+
+#. Description of the plugin
+#: media-tracker.php
+msgid "Track and manage media file usage across posts, pages, and custom post types with ease using Media Tracker."
+msgstr ""
+
+#. Author of the plugin
+#: media-tracker.php
+msgid "TheBitCraft"
+msgstr ""
+
+#: includes/Admin/Media_Usage.php:25
+msgid "Media Usage"
+msgstr ""
+
+#: includes/Admin/Media_Usage.php:60
+msgid "#"
+msgstr ""
+
+#: includes/Admin/Media_Usage.php:61
+msgid "Title"
+msgstr ""
+
+#: includes/Admin/Media_Usage.php:62
+msgid "Type"
+msgstr ""
+
+#: includes/Admin/Media_Usage.php:63
+msgid "Date Added"
+msgstr ""
+
+#: includes/Admin/Media_Usage.php:64
+msgid "Actions"
+msgstr ""
+
+#: includes/Admin/Media_Usage.php:72
+msgid "%s ago"
+msgstr ""
+
+#: includes/Admin/Media_Usage.php:84
+msgid "Admin View"
+msgstr ""
+
+#: includes/Admin/Media_Usage.php:85
+msgid "Frontend View"
+msgstr ""
+
+#: includes/Admin/Media_Usage.php:93
+msgid "No posts or pages found using this media file."
+msgstr ""
+
+#: includes/Admin/Menu.php:91
+msgid "Number of items per page:"
+msgstr ""
+
+#: includes/Admin/Unused_Media_List.php:50
+msgid "File"
+msgstr ""
+
+#: includes/Admin/Unused_Media_List.php:51
+msgid "Author"
+msgstr ""
+
+#: includes/Admin/Unused_Media_List.php:52
+msgid "Size"
+msgstr ""
+
+#: includes/Admin/Unused_Media_List.php:53
+msgid "Date"
+msgstr ""
+
+#: includes/Admin/Unused_Media_List.php:75
+msgid "“%s” (Edit)"
+msgstr ""
+
+#: includes/Admin/Unused_Media_List.php:81
+msgid "File name:"
+msgstr ""
+
+#: includes/Admin/Unused_Media_List.php:254
+msgid "Delete permanently"
+msgstr ""
+
+#: includes/Admin/views/unused-media-list.php:2
+msgid "Unused Media Library"
+msgstr ""
+
+#: includes/Admin/views/unused-media-list.php:6
+msgid "Search Media"
+msgstr ""

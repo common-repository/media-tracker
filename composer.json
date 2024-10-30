@@ -1,0 +1,19 @@
+{
+    "name": "thebitcraft/media-tracker",
+    "description": "Media Tracker is a WordPress plugin to find and remove unused media files, manage duplicates, and optimize your media library for better performance.",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "TheBitCraft"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Media_Tracker\\": "includes/"
+        },
+        "files": []
+    }
+}
